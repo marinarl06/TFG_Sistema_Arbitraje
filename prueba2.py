@@ -2,11 +2,11 @@ import tkinter as tk
 from tkinter import PhotoImage, Label, Toplevel,ttk
 
 def casillas(event):
-    print(str(event.x) +","+ str(event.y))
-    if ((event.x >= 422 and event.x <= 522) and (event.y >= 212 and event.y <= 312)) or \
-        ((event.x >= 422 and event.x <= 522) and (event.y >= 586 and event.y <= 686)) or \
-        ((event.x >= 660 and event.x <= 760) and (event.y >= 586 and event.y <= 686)) or \
-        ((event.x >= 774 and event.x <= 874) and (event.y >= 382 and event.y <= 482)) :
+    #print(str(event.x) +","+ str(event.y))
+    if ((422 <= event.x <= 522) and (212 <= event.y <= 312)) or \
+        ((422 <= event.x <= 522) and (586 <= event.y <= 686)) or \
+        ((660 <= event.x <= 760) and (586 <= event.y <= 686)) or \
+        ((774 <= event.x <= 874) and (382 <= event.y <= 482)) :
         izq_v1 = tk.Toplevel(ventana)
         izq_v1.resizable(width=False, height=False)
         izq_v1.title("Casilla Verde")
@@ -17,10 +17,10 @@ def casillas(event):
         izq_v1.focus()  # para que cuando se pulsa el boton salga en primer lugar esta ventana
         izq_v1.grab_set()  # para que no se pueda utilizar la ventana principal
 
-    elif ((event.x >= 422 and event.x <= 522) and (event.y >= 383 and event.y <= 483)) or \
-         ((event.x >= 535 and event.x <= 635) and (event.y >= 586 and event.y <= 686))  or \
-         ((event.x >= 774 and event.x <= 874) and (event.y >= 586 and event.y <= 686)) or \
-         ((event.x >= 774 and event.x <= 874) and (event.y >= 212 and event.y <= 312)):
+    elif ((422 <= event.x <= 522) and (383 <= event.y <= 483)) or \
+         ((535 <= event.x <= 635) and (586 <= event.y <= 686))  or \
+         ((774 <= event.x <= 874) and (586 <= event.y <= 686)) or \
+         ((774 <= event.x <= 874) and (212 <= event.y <= 312)):
         izq_a1 = tk.Toplevel(ventana)
         izq_a1.resizable(width=False, height=False)
         izq_a1.title("Casilla Azul")
