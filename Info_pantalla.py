@@ -1,5 +1,9 @@
 import tkinter as tk
 
+'''
+Imprime la información de la pantalla en la que estoy trabajando, para saber 
+que dimensiones de ventana establecer en la app
+'''
 ventana=tk.Tk()
 
 def imprimir_informacion(r):

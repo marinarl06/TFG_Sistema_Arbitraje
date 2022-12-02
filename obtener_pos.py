@@ -1,5 +1,8 @@
 from pynput.mouse import Listener
 
+'''
+Para obtener la posicion en la que hacemos click y asi poder declarar las zonas activas de la aplicación
+'''
 def on_move(x, y):
     print("Mouse moved")
 
