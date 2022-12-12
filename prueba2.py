@@ -1,8 +1,12 @@
 #Importacion de librerias necesarias
 import tkinter as tk
-from tkinter import PhotoImage, Label, Toplevel, ttk
+from tkinter import PhotoImage, Label, Toplevel
 
-def crea_platos(event, fondo_casilla, pastel1,pastel2, pastel3, pastel4, pastel5):
+def crea_platos(event, fondo_casilla, pastel_capa1, pastel_capa2, pastel_capa3, pastel_capa_ordenada, pastel_cereza):
+    """
+    Funcion que recibe el clic del raton y las imagenes de los distintos pasteles a formar.
+    Comprueba si el clic ha sido realizado en las zonas activas de la ventana.
+    """
     # print(str(event.x) +","+ str(event.y))
     if ((422 <= event.x <= 522) and (212 <= event.y <= 312)) or \
             ((422 <= event.x <= 522) and (586 <= event.y <= 686)) or \
@@ -13,9 +17,13 @@ def crea_platos(event, fondo_casilla, pastel1,pastel2, pastel3, pastel4, pastel5
             ((774 <= event.x <= 874) and (586 <= event.y <= 686)) or \
             ((774 <= event.x <= 874) and (212 <= event.y <= 312)):
         #Si el usuario hace clic sobre alguna zona activa, creamos una ventana secundaria que abre esa casilla
-        casilla(fondo_casilla, pastel1, pastel2, pastel3, pastel4, pastel5)
+        casilla(fondo_casilla, pastel_capa1, pastel_capa2, pastel_capa3, pastel_capa_ordenada, pastel_cereza)
 
 def casilla(fondo_casilla, foto_pastel1,foto_pastel2 ,foto_pastel3 ,foto_pastel3_correcto,foto_pastel_cereza):
+    """
+    Funcion que recibe la foto de fondo de la zona activa y las fotos de los distintos pasteles a formar,
+    creando así la zona activa en la que anteriormente se clicó
+    """
     plato = Toplevel(ventana)
     plato.resizable(width=False, height=False)
     plato.title("Casilla Verde")
@@ -29,31 +37,43 @@ def casilla(fondo_casilla, foto_pastel1,foto_pastel2 ,foto_pastel3 ,foto_pastel3
     inserta_pasteles(event, foto_pastel1,foto_pastel2 ,foto_pastel3 ,foto_pastel3_correcto,foto_pastel_cereza, plato))
 
 def inserta_pasteles(event, foto_pastel1,foto_pastel2 ,foto_pastel3 ,foto_pastel3_correcto,foto_pastel_cereza, plato):
+    """
+    Función que recibe el clic izquierdo del raton y las fotos de los distintos pasteles que pueden ser formados.
+    Dependiendo de la zona de la zona activa donde se haya clicado se insertará un pastel distinto.
+    Se creará un array de imagenes con las imagenes de los distintos pasteles.
+    """
     #print(str(event.x) + "," + str(event.y))
     array_pasteles = ['Pasteles/1.png', 'Pasteles/5.png', 'Pasteles/7.png', 'Pasteles/8.png', 'Pasteles/9.png']
+    #Zona para pasteles de 1 capa
     if ((0 <= event.x <= 250) and (0 <= event.y <= 166)):
         foto_pastel1.config(file=array_pasteles[0])
         pastel1 = Label(plato, image=foto_pastel1)
         pastel1.place(x=event.x, y=event.y)
-
+    # Zona para pasteles de 2 capas
     elif ((251 <= event.x <= 500) and (0 <= event.y <= 166)):
         foto_pastel2.config(file=array_pasteles[1])
         pastel2 = Label(plato, image=foto_pastel2)
         pastel2.place(x=event.x, y=event.y)
+    # Zona para pasteles de 3 capas
     elif ((0 <= event.x <= 250) and (167<= event.y <= 332)):
         foto_pastel3.config(file=array_pasteles[2])
         pastel3 = Label(plato, image=foto_pastel3)
         pastel3.place(x=event.x, y=event.y)
+    # Zona para pasteles de 3 capas que siguen la receta
     elif ((251 <= event.x <= 500) and (167 <= event.y <= 332)):
         foto_pastel3_correcto.config(file=array_pasteles[3])
         pastel3_correcto = Label(plato, image=foto_pastel3_correcto)
         pastel3_correcto.place(x=event.x, y=event.y)
+    # Zona para pasteles completos, con cereza
     elif ((0 <= event.x <= 500) and (332 <= event.y <= 500)):
         foto_pastel_cereza.config(file=array_pasteles[4])
         pastel_completo = Label(plato, image=foto_pastel_cereza)
         pastel_completo.place(x=event.x, y=event.y)
 
 def cuenta_puntos_plato(contador):
+    """
+    Funcion que lleva el recuento de puntos de cada zona activa
+    """
     pass
 
 
@@ -77,7 +97,7 @@ pastel_cereza= PhotoImage()
 
 # capturamos el clic izquierdo del raton y se lo pasamos a las casillas
 ventana.bind("<Button-1>", lambda event, imgfondo2 = PhotoImage(file="fondo3.png"),
-pastel1=pastel_capa1, pastel2=pastel_capa2, pastel3=pastel_capa3, pastel4=pastel_capa_ordenada,
-pastel5=pastel_cereza: crea_platos(event, imgfondo2, pastel1, pastel2, pastel3, pastel4, pastel5))
+pastel_capa1=pastel_capa1, pastel_capa2=pastel_capa2, pastel_capa3=pastel_capa3, pastel_capa_ordenada=pastel_capa_ordenada,
+pastel_cereza=pastel_cereza: crea_platos(event, imgfondo2, pastel_capa1, pastel_capa2, pastel_capa3, pastel_capa_ordenada, pastel_cereza))
 
 ventana.mainloop()
