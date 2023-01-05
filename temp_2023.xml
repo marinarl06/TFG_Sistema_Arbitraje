@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<EurobotSpain temporada="2023" url="127.0.0.0/basedatos" pass="pass">
+    <!--
+    Datos de la base de datos donde conectarnos para actualizar las puntuaciones:
+    - partidos: Tabla donde están los partidos a puntuar.
+    - activo: Dentro de la tabla anterior, campo que indica al partido a puntuar (solo habrá un registro de la tabla anterior con este valor a True)
+    - resultado1(2): Dentro de la tabla anterior, campo donde escribir la puntuación final para el equipo 1(2) después de puntuar todas las acciones del partido.
+    - acciones: Tabla donde actualizar los valores conseguidos por cada acción para cada partido.
+    - puntos: Tabla donde actualizar las puntuaciones parciales (agrupación de varias acciones, en general con características comunes entre ellas).
+    -->
+    <tablas partidos="tabla_partidos" activo="partido_activo" resultado1="campo_resultado1" resultado2="campo_resultado2" acciones="tabla_acciones" puntos="tabla_puntos"/>
+    <!--
+    Nombre del archivo donde se implementa la función que realiza los cálculos de puntuaciones en función de los valores de las acciones.
+    -->
+    <calculo directorio="/home/user/eurobot2023/arbitraje/" archivo="calculo.py"/>
+    <acciones>
+        <!--
+        Lista de acciones. Debe haber un elemento por cada una de las acciones que dan puntos. Por ejemplo, para un plato, tendríamos:
+            - pastel de 1 capa.
+            - pastel de 2 capas.
+            - pastel de 3 capas.
+            - pastel de 3 capas ordenado.
+            - cereza sobre el pastel.
+        -->
+        <accion nombre="plato1_1_capa" x1="200" y1="200" x2="250" y2="220" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="00FF0000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato1_2_capas" x1="250" y1="200" x2="300" y2="220" max="3">
+            <estilo borde="000000FF" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+
+    </acciones>
+
+    <resultados>
+        <resultado nombre="total_plato1" x1="150" y1="200" x2="200" y2="250">
+            <!--
+            Campos de texto (numéricos) donde se representarán los resultados parciales de un conjunto de acciones (por ejemplo, el total de puntos obtenidos en el plato 1, esto es
+            número de pasteles de 1 capa más número de pasteles de dos capas, etc). Los valores de estos campos son devueltos por la función implementada en el archivo definido en el
+            campo "calculo".
+            NOTA: Asegurarse de que el tamaño del campo, junto con la fuente, hace que no aparezca el texto truncado (por ejemplo, reducir el tamaño de la fuente si el valor hace
+            que el texto se salga del campo, o bien, ver si es posible definir este campo sólo por su centro, y representar el número centrado, y de tamaño ajustable.)
+            -->
+            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        </resultado>
+        <resultado nombre="total_plato2" x1="250" y1="200" x2="300" y2="250">
+            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        </resultado>
+    </resultados>
+    <etiquetas>
+        <!--
+        Si no da tiempo, las etiquetas se pueden pintar sobre el propio fondo (por ejemplo con Photoshop), y nos evitamos esta parte.
+        -->
+        <etiqueta x1="300" y1="350" x2="320" y2="380" borde="RGB" fondo="RGB" texto="Total puntos"/>
+    </etiquetas>
+</EurobotSpain>

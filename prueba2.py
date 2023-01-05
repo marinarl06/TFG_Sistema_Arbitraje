@@ -1,13 +1,13 @@
 #Importacion de librerias necesarias
 import tkinter as tk
-from tkinter import PhotoImage, Label, Toplevel
+from tkinter import PhotoImage, Label, Toplevel, Canvas
 
 def crea_platos(event, fondo_casilla, pastel_capa1, pastel_capa2, pastel_capa3, pastel_capa_ordenada, pastel_cereza):
     """
     Funcion que recibe el clic del raton y las imagenes de los distintos pasteles a formar.
     Comprueba si el clic ha sido realizado en las zonas activas de la ventana.
     """
-    # print(str(event.x) +","+ str(event.y))
+    #print(str(event.x) +","+ str(event.y))
     if ((422 <= event.x <= 522) and (212 <= event.y <= 312)) or \
             ((422 <= event.x <= 522) and (586 <= event.y <= 686)) or \
             ((660 <= event.x <= 760) and (586 <= event.y <= 686)) or \
@@ -76,17 +76,36 @@ def cuenta_puntos_plato(contador):
     """
     pass
 
+def inserta_lineas():
+    canvas.create_line(472,0,472,66, width=5)
+    canvas.create_line(422, 66, 522, 66, width=5)
+    canvas.create_line(422, 32, 522, 32, width=5)
+    #canvas.create_line(472, 10, 472, 76, width=5)
 
-# Creamos la ventana principal
+# Creamos la ventana principa
 ventana = tk.Tk()
 ventana.resizable(width=False, height=False)  # para que la ventana no pueda redimensionarse
 ventana.title("Eurobot Spain 2023")  # titulo de ventana, se muestra en la barra de herramientas
-ventana.geometry("1300x700+30+0")  # dimensiones de la ventana
+#ventana.geometry("1300x700+30+0")  # dimensiones de la ventana
+
+
+# Creamos la componente Canvas
+canvas=Canvas(ventana,width=1300,height=700)
+canvas.pack()
+
+#Mover la ventana 30 pixels a la derecha
+ventana.geometry("+30+0")
+#canvas.grid(row=0, column=0)
 
 # Establecemos el tablero como fondo de la ventana principal
 imgfondo = PhotoImage(file="tablero.png")
-fondo = Label(ventana, image=imgfondo)
-fondo.place(relwidth=1, relheight=1)
+
+canvas.create_image(422,0, anchor=tk.NW, image=imgfondo)
+
+inserta_lineas()
+
+#fondo = Label(ventana, image=imgfondo)
+#fondo.place(relwidth=1, relheight=1)
 
 #Creamos photo image de los diferentes tipos de pasteles que contabilizan puntos
 pastel_capa1 = PhotoImage()
@@ -96,8 +115,9 @@ pastel_capa_ordenada = PhotoImage()
 pastel_cereza= PhotoImage()
 
 # capturamos el clic izquierdo del raton y se lo pasamos a las casillas
-ventana.bind("<Button-1>", lambda event, imgfondo2 = PhotoImage(file="fondo3.png"),
-pastel_capa1=pastel_capa1, pastel_capa2=pastel_capa2, pastel_capa3=pastel_capa3, pastel_capa_ordenada=pastel_capa_ordenada,
-pastel_cereza=pastel_cereza: crea_platos(event, imgfondo2, pastel_capa1, pastel_capa2, pastel_capa3, pastel_capa_ordenada, pastel_cereza))
+#ventana.bind("<Button-1>", lambda event, imgfondo2 = PhotoImage(file="fondo3.png"),
+#pastel_capa1=pastel_capa1, pastel_capa2=pastel_capa2, pastel_capa3=pastel_capa3, pastel_capa_ordenada=pastel_capa_ordenada,
+#pastel_cereza=pastel_cereza: crea_platos(event, imgfondo2, pastel_capa1, pastel_capa2, pastel_capa3, pastel_capa_ordenada, pastel_cereza))
+
 
 ventana.mainloop()
