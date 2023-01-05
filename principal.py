@@ -1,6 +1,7 @@
 #Importacion de librerias necesarias
 import tkinter as tk
-from tkinter import PhotoImage, Label, Toplevel, Canvas
+from tkinter import PhotoImage, Canvas
+import os
 
 plato1_azul = {'x1': [422, 472, 422, 472, 422], 'x2': [472, 522, 472, 522, 522], 'y1': [0, 0, 32, 32],
                    'y2': [32, 32, 66, 66]}
@@ -117,9 +118,27 @@ def calcula_puntos(event):
     contador_clics = (contador_clics_c1 + contador_clics_c2 + contador_clics_c3 + contador_clics_ord
                       + contador_clics_cereza)
     muestra_puntos(contador_clics)
+    datos_a_txt(contador_clics_c1, contador_clics_c2, contador_clics_c3, contador_clics_ord, contador_clics_cereza, contador_clics)
 
 def muestra_puntos(puntos):
     canvas.itemconfig(texto, text=str(puntos))
+
+def datos_a_txt(contador_clics_c1, contador_clics_c2, contador_clics_c3, contador_clics_ord, contador_clics_cereza, contador_clics):
+    '''
+    Funcion que exporta los datos del partido a un txt
+    '''
+
+    archivo=open("partido.txt","w")
+
+    archivo.write("Los puntos de este partido han sido:\n")
+    archivo.write("Pasteles de 1 capa: "+ str(contador_clics_c1) +"\n" )
+    archivo.write("Pasteles de 2 capas: "+ str(contador_clics_c2/2)+ "\n")
+    archivo.write("Pasteles de 3 capas: "+ str(contador_clics_c3/3)+"\n")
+    archivo.write("Pasteles de 3 capas ordenado: "+ str(contador_clics_ord/7)+"\n")
+    archivo.write("Pasteles con cereza: "+ str(contador_clics_cereza/3)+"\n")
+    archivo.write("Puntos parciales en el plato 1: "+ str(contador_clics)+ "\n")
+
+
 
 
 # Creamos la ventana principal
