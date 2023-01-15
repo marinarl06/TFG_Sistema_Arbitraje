@@ -1,7 +1,7 @@
 Los puntos de este partido han sido:
 Pasteles de 1 capa: 1
-Pasteles de 2 capas: 1.0
-Pasteles de 3 capas: 1.0
-Pasteles de 3 capas ordenado: 1.0
+Pasteles de 2 capas: 0.0
+Pasteles de 3 capas: 0.0
+Pasteles de 3 capas ordenado: 0.0
 Pasteles con cereza: 0.0
-Puntos parciales en el plato 1: 13
+Puntos parciales en el plato 1: 1

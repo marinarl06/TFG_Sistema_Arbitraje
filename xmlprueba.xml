@@ -32,7 +32,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -48,7 +48,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -64,7 +64,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -80,7 +80,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -96,7 +96,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -104,333 +104,8 @@
                 <imagen valor="3" nombre="capa3.png"/>
             </graficos>
         </accion>
-
-        <accion nombre="plato2azul_1_capa" x1="422" y1="373" x2="471" y2="406" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato2azul_2_capas" x1="472" y1="373" x2="522" y2="406" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato2azul_3_capas" x1="422" y1="407" x2="471" y2="439" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato2azul_orden" x1="472" y1="407" x2="522" y2="439" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato2azul_cereza" x1="422" y1="440" x2="522" y2="473" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-
-        <accion nombre="plato3azul_1_capa" x1="535" y1="576" x2="585" y2="609" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato3azul_2_capas" x1="586" y1="576" x2="635" y2="609" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato3azul_3_capas" x1="535" y1="610" x2="585" y2="642" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato3azul_orden" x1="586" y1="610" x2="635" y2="642" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato3azul_cereza" x1="535" y1="643" x2="635" y2="676" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-
-        <accion nombre="plato4azul_1_capa" x1="774" y1="576" x2="824" y2="609" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato4azul_2_capas" x1="825" y1="576" x2="874" y2="609" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato4azul_3_capas" x1="774" y1="610" x2="824" y2="642" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato4azul_orden" x1="825" y1="610" x2="874" y2="642" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato4azul_cereza" x1="774" y1="643" x2="874" y2="676" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-
-        <accion nombre="plato5azul_1_capa" x1="774" y1="202" x2="824" y2="232" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato5azul_2_capas" x1="825" y1="202" x2="874" y2="232" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato5azul_3_capas" x1="774" y1="233" x2="824" y2="266" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato5azul_orden" x1="825" y1="233" x2="874" y2="266" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-        <accion nombre="plato5azul_cereza" x1="774" y1="267" x2="874" y2="302" max="3">
-            <!--
-            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
-            de acciones de la base de datos.
-            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
-            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
-            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
-            -->
-            <estilo borde="00FF0000" ancho="2"/>
-            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
-                <imagen valor="0" nombre="capa0.png"/>
-                <imagen valor="1" nombre="capa1.png"/>
-                <imagen valor="2" nombre="capa2.png"/>
-                <imagen valor="3" nombre="capa3.png"/>
-            </graficos>
-        </accion>
-
         <accion nombre="plato1verde_1_capa" x1="422" y1="202" x2="471" y2="235" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -439,7 +114,7 @@
             </graficos>
         </accion>
         <accion nombre="plato1verde_2_capas" x1="472" y1="202" x2="522" y2="235" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -448,7 +123,7 @@
             </graficos>
         </accion>
         <accion nombre="plato1verde_3_capas" x1="422" y1="236" x2="471" y2="268" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -464,7 +139,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -480,7 +155,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -488,9 +163,88 @@
                 <imagen valor="3" nombre="capa3.png"/>
             </graficos>
         </accion>
-
+        <accion nombre="plato2azul_1_capa" x1="422" y1="373" x2="471" y2="406" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato2azul_2_capas" x1="472" y1="373" x2="522" y2="406" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato2azul_3_capas" x1="422" y1="407" x2="471" y2="439" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato2azul_orden" x1="472" y1="407" x2="522" y2="439" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato2azul_cereza" x1="422" y1="440" x2="522" y2="473" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
         <accion nombre="plato2verde_1_capa" x1="422" y1="576" x2="471" y2="609" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -499,7 +253,7 @@
             </graficos>
         </accion>
         <accion nombre="plato2verde_2_capas" x1="472" y1="576" x2="522" y2="609" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -508,7 +262,7 @@
             </graficos>
         </accion>
         <accion nombre="plato2verde_3_capas" x1="422" y1="609" x2="471" y2="642" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -524,7 +278,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -540,7 +294,23 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa" >
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato3azul_1_capa" x1="535" y1="576" x2="585" y2="609" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -548,9 +318,72 @@
                 <imagen valor="3" nombre="capa3.png"/>
             </graficos>
         </accion>
-
+        <accion nombre="plato3azul_2_capas" x1="586" y1="576" x2="635" y2="609" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato3azul_3_capas" x1="535" y1="610" x2="585" y2="642" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato3azul_orden" x1="586" y1="610" x2="635" y2="642" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato3azul_cereza" x1="535" y1="643" x2="635" y2="676" max="3" >
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
         <accion nombre="plato3verde_1_capa" x1="660" y1="576" x2="710" y2="609" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -559,7 +392,7 @@
             </graficos>
         </accion>
         <accion nombre="plato3verde_2_capas" x1="711" y1="576" x2="760" y2="609" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -568,7 +401,7 @@
             </graficos>
         </accion>
         <accion nombre="plato3verde_3_capas" x1="660" y1="610" x2="710" y2="642" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -584,7 +417,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -600,7 +433,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -608,9 +441,88 @@
                 <imagen valor="3" nombre="capa3.png"/>
             </graficos>
         </accion>
-
+        <accion nombre="plato4azul_1_capa" x1="774" y1="576" x2="824" y2="609" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato4azul_2_capas" x1="825" y1="576" x2="874" y2="609" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato4azul_3_capas" x1="774" y1="610" x2="824" y2="642" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato4azul_orden" x1="825" y1="610" x2="874" y2="642" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato4azul_cereza" x1="774" y1="643" x2="874" y2="676" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
         <accion nombre="plato4verde_1_capa" x1="774" y1="372" x2="824" y2="405" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -619,7 +531,7 @@
             </graficos>
         </accion>
         <accion nombre="plato4verde_2_capas" x1="825" y1="372" x2="874" y2="405" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -628,7 +540,7 @@
             </graficos>
         </accion>
         <accion nombre="plato4verde_3_capas" x1="774" y1="406" x2="824" y2="438" max="3">
-            <estilo borde="000000FF" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_2_capas">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -644,7 +556,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -660,7 +572,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -668,7 +580,87 @@
                 <imagen valor="3" nombre="capa3.png"/>
             </graficos>
         </accion>
-        <accion nombre="plato5verde_1_capa" x1="774" y1="0" x2="824" y2="33" max="3">
+        <accion nombre="plato5azul_1_capa" x1="774" y1="202" x2="824" y2="232" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato5azul_2_capas" x1="825" y1="202" x2="874" y2="232" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato5azul_3_capas" x1="774" y1="233" x2="824" y2="266" max="3">
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato5azul_orden" x1="825" y1="233" x2="874" y2="266" max="3" >
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato5azul_cereza" x1="774" y1="267" x2="874" y2="302" max="3" >
+            <!--
+            Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
+            de acciones de la base de datos.
+            Aspecto con el que se representa el gráfico que indica el número de acciones realizadas en esta acción.
+            NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
+            NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
+            -->
+            <estilo borde="#000000" ancho="2"/>
+            <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
+                <imagen valor="0" nombre="capa0.png"/>
+                <imagen valor="1" nombre="capa1.png"/>
+                <imagen valor="2" nombre="capa2.png"/>
+                <imagen valor="3" nombre="capa3.png"/>
+            </graficos>
+        </accion>
+        <accion nombre="plato5verde_1_capa" x1="774" y1="0" x2="824" y2="33" max="3" >
 
          <!--
             Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
@@ -677,7 +669,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -685,7 +677,7 @@
                 <imagen valor="3" nombre="capa3.png"/>
             </graficos>
         </accion>
-        <accion nombre="plato5verde_2_capas" x1="825" y1="0" x2="874" y2="33" max="3">
+        <accion nombre="plato5verde_2_capas" x1="825" y1="0" x2="874" y2="33" max="3" >
             <!--
             Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
             de acciones de la base de datos.
@@ -693,7 +685,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -709,7 +701,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -725,7 +717,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -733,7 +725,7 @@
                 <imagen valor="3" nombre="capa3.png"/>
             </graficos>
         </accion>
-        <accion nombre="plato5verde_cereza" x1="774" y1="67" x2="874" y2="100" max="3">
+        <accion nombre="plato5verde_cereza" x1="774" y1="67" x2="874" y2="100" max="3" >
             <!--
             Definición de una acción concreta (por ejemplo ¿cuántos pasteles de 1 capa hay en el plato 1?). Debería haber tantos campos de estos como registros haya en la tabla
             de acciones de la base de datos.
@@ -741,7 +733,7 @@
             NOTA: El fondo del gráfico no es necesario, ya que siempre se representará algo sobre este elemento, es decir, siempre se pintará alguno de los gráficos que hay más abajo.
             NOTA: Deberíamos asegurarnos que el tamaño en píxeles de los gráficos se corresponda con el tamaño definido en la acción (x1, y1, x2, y2) para evitar efectos de interpolación.
             -->
-            <estilo borde="00FF0000" ancho="2"/>
+            <estilo borde="#000000" ancho="2"/>
             <graficos directorio="/home/user/eurobot2023/arbitraje/acciones/pastel_1_capa">
                 <imagen valor="0" nombre="capa0.png"/>
                 <imagen valor="1" nombre="capa1.png"/>
@@ -752,7 +744,7 @@
     </acciones>
 
     <resultados>
-        <resultado nombre="Total Plato 1 Azul" x1="350" y1="33" x2="350" y2="50">
+        <resultado nombre="Total Plato 1 Azul" x1="350" y1="33" x2="350" y2="53">
             <!--
             Campos de texto (numéricos) donde se representarán los resultados parciales de un conjunto de acciones (por ejemplo, el total de puntos obtenidos en el plato 1, esto es
             número de pasteles de 1 capa más número de pasteles de dos capas, etc). Los valores de estos campos son devueltos por la función implementada en el archivo definido en el
@@ -760,35 +752,34 @@
             NOTA: Asegurarse de que el tamaño del campo, junto con la fuente, hace que no aparezca el texto truncado (por ejemplo, reducir el tamaño de la fuente si el valor hace
             que el texto se salga del campo, o bien, ver si es posible definir este campo sólo por su centro, y representar el número centrado, y de tamaño ajustable.)
             -->
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 2 Azul" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 1 Verde" x1="350" y1="232" x2="350" y2="252">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 3 Azul" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 2 Azul" x1="350" y1="406" x2="350" y2="426">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 4 Azul" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 2 Verde" x1="350" y1="609" x2="350" y2="629">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 5 Azul" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 3 Azul" x1="580" y1="700" x2="580" y2="720">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-
-        <resultado nombre="Total Plato 1 Verde" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+         <resultado nombre="Total Plato 3 Verde" x1="710" y1="700" x2="710" y2="720">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 2 Verde" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 4 Azul" x1="960" y1="609" x2="960" y2="629">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 3 Verde" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 4 Verde" x1="960" y1="406" x2="960" y2="426">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 4 Verde" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 5 Azul" x1="960" y1="232" x2="960" y2="252">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
-        <resultado nombre="Total Plato 5 Verde" x1="250" y1="200" x2="300" y2="250">
-            <estilo color="0000FF00" fuente="times" tamano="20" fondo="00FF00FF" borde="00FF0000" ancho="2"/>
+        <resultado nombre="Total Plato 5 Verde" x1="960" y1="33" x2="960" y2="53">
+            <estilo color="#000000" fuente="times" tamano="14" fondo="transparent" borde="00FF0000" ancho="2"/>
         </resultado>
     </resultados>
 
