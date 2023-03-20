@@ -15,19 +15,18 @@ def create_canvas(root,ruta):
     ancho_canvas = root.winfo_screenwidth()
 
     # Crea el canvas
-    canvas = tk.Canvas(root, width=ancho_canvas, height=alto_canvas)
+    canvas = tk.Canvas(root, width=400, height=400)
     canvas.pack()
 
     # Creamos los radiobuttons para elegir arbitro y campo
-    botones_arbitro_campo(canvas,ancho_canvas)
+    botones_arbitro_campo(canvas)
 
     # Crear botón para obtener el radiobutton seleccionado
     get_button = tk.Button(canvas, text="Obtener radiobutton seleccionado",
                            command= lambda: get_valores_boton(canvas, ruta, ancho_canvas, alto_canvas))
-    canvas.create_window(ancho_canvas/2,250, window=get_button)
+    canvas.create_window(200,300, window=get_button)
 
-
-def botones_arbitro_campo(canvas,ancho_canvas):
+def botones_arbitro_campo(canvas):
     """
     OBJ: Crea 4 (2 para seleccionar el arbitro y 2 para seleccionar el campo) radiobuttons y los ubica en el canvas principal
     PARAM: canvas -> None
@@ -40,17 +39,18 @@ def botones_arbitro_campo(canvas,ancho_canvas):
     campo2 = tk.Radiobutton(canvas, text="Campo B", variable=campo, value="campoB")
 
     # posicionar los Radiobuttons en el canvas
-    canvas.create_window(ancho_canvas/2, 50, window=arbitro1)
-    canvas.create_window(ancho_canvas/2, 100, window=arbitro2)
-    canvas.create_window(ancho_canvas/2, 150, window=campo1)
-    canvas.create_window(ancho_canvas/2, 200, window=campo2)
+    canvas.create_window(200, 100, window=arbitro1)
+    canvas.create_window(200, 150, window=arbitro2)
+    canvas.create_window(200, 200, window=campo1)
+    canvas.create_window(200, 250, window=campo2)
 
 
 def get_valores_boton(canvas, ruta, ancho_canvas, alto_canvas):
     """
     OBJ: Obtiene los valores que han sido seleccionados por el usuario en los radiobuttons y dependiendo de la selección
-    modifica la variable ruta con un valor u otro y si es necesario cambia la rotacion de la imagen.
-    Finalmente llama a la función configura_canvas para configura el fondo del canvas con los valores obtenidos segun los radioibuttons seleccionados.
+    modifica la variable ruta con un valor u otro y si es necesario cambia la rotacion de la imagen
+    y finalmente llama a la función new_canvas para crear un nuevo canvas
+    asociado a la ventana con la configuración establecida segun los radioibuttons seleccionados.
     PARAM: canvas, string, int, int -> None
     """
     global arbitro, campo, rotacion, archivo
@@ -63,25 +63,31 @@ def get_valores_boton(canvas, ruta, ancho_canvas, alto_canvas):
         rotacion=180
         archivo = 'acciones_drch.csv'
 
-    configura_canvas(canvas, ruta, ancho_canvas, alto_canvas)
+    new_canvas(canvas, ruta, ancho_canvas, alto_canvas)
 
-def configura_canvas(canvas,ruta,ancho_canvas, alto_canvas):
+def new_canvas(canvas_previo,ruta,ancho_canvas, alto_canvas):
     """
-    OBJ: Configura el canvas con la configuración que se establezc.
+    OBJ: Crea un nuevo canvas con la configuración que se establezca y elimina el canvas anterior.
     Llama una funcion para configurar el fondo del canvas y que la imagen se ajuste a las dimensiones de dicho canvas
     Llama a la funcion para leer los datos del partido que va a disputarse
     PARAM: canvas, string, int, int -> None
     """
+    # Cerramos el canvas anterior
+    canvas_previo.destroy()
     # LLamada a la funcion para que nos redimensione la imagen con las dimensiones del canvas y nos devuelva las dimensiones
     ancho_original, alto_original, nuevo_ancho, nuevo_alto, imagen_fondo = configura_fondo(ruta, ancho_canvas, alto_canvas)
 
+    # Creamos el nuevo canvas
+    new_canvas = tk.Canvas(root, width=ancho_original, height=alto_original)
+    new_canvas.pack()
+
     # Dibuja la imagen de fondo en el canvas
     imagen_fondo_tk = ImageTk.PhotoImage(imagen_fondo)
-    canvas.background = imagen_fondo_tk
-    canvas.create_image(0, nuevo_alto, anchor="nw", image=imagen_fondo_tk)
+    new_canvas.background = imagen_fondo_tk
+    new_canvas.create_image(0, nuevo_alto, anchor="nw", image=imagen_fondo_tk)
 
     # Llamamos a la función que nos proporciona la info de las acciones de cada partido
-    datos_csv(canvas,ancho_original,alto_original,nuevo_ancho,nuevo_alto)
+    datos_csv(new_canvas, ancho_original, alto_original, nuevo_ancho, nuevo_alto)
 
 def configura_fondo(ruta, ancho_canvas, alto_canvas):
     """
@@ -141,14 +147,13 @@ def inserta_cuadros(new_canvas, acciones, ancho_original, alto_original, nuevo_a
         y2_redimension = (int(acciones[i][8]) + int(acciones[i][10])) * (nuevo_alto / alto_original)
 
         if rotacion == 180:
-            x1_redimension = nuevo_ancho - x1_redimension
-            y1_redimension = (nuevo_alto - y1_redimension) + nuevo_alto
-            x2_redimension = nuevo_ancho - x2_redimension
-            y2_redimension = (nuevo_alto - y2_redimension) + nuevo_alto
+            x1_redimension, y1_redimension = rotacion_pixel(x1_redimension, y1_redimension, nuevo_ancho / 2,
+                                                          nuevo_alto, 180)
+            x2_redimension, y2_redimension = rotacion_pixel(x2_redimension, y2_redimension, nuevo_ancho / 2,
+                                                          nuevo_alto, 180)
 
-            new_canvas.create_rectangle(x1_redimension + 30, y1_redimension +40 ,
+            new_canvas.create_rectangle(x1_redimension + 30, y1_redimension + 40 ,
                                     x2_redimension + 30, y2_redimension + 40, width=5)
-
             if (i >= 25):
                 if ('_cesta' in acciones[i][6] or 'estimacion' in acciones[i][6]):
                     new_canvas.create_text(x1_redimension + 120, y1_redimension + 20, text=acciones[i][6], font=("Arial", 20))
@@ -165,6 +170,17 @@ def inserta_cuadros(new_canvas, acciones, ancho_original, alto_original, nuevo_a
                 else:
                     new_canvas.create_text(x1_redimension + 50, y1_redimension - 60, text=acciones[i][6], font=("Arial", 20))
 
+def rotacion_pixel(x, y, cx, cy, angulo):
+    """
+    OBJ: Rota un pixel (x, y) alrededor del centro (cx, cy) por el ángulo dado
+    PARAM: int, int, int, int, int --> int, int
+    """
+    radians = angulo * math.pi / 180.0
+    cos = math.cos(radians)
+    sin = math.sin(radians)
+    nuevo_x = cos * (x - cx) + sin * (y - cy) + cx
+    nuevo_y = -sin * (x - cx) + cos * (y - cy) + cy
+    return nuevo_x, nuevo_y
 
 # Crear ventana principal
 root = tk.Tk()
